@@ -1,4 +1,6 @@
-# Impor modul-modul yang dibutuhkan
+#Nama: FRANSCIESCO STEINLIE
+#NIM : 243107030129
+
 from game.Level import start, over
 from game.Level.load import load_level
 from game.Sound import play,pause,load
@@ -19,3 +21,4 @@ print(f"{"-"*10}Package Level{"-"*10}")
 start.start_level()
 load_level()
 over.over_level()
+
